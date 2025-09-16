@@ -26,6 +26,16 @@ This project demonstrates how to automate backups from an on-premises Microsoft 
 
 ## Step 3: On-Prem Windows SQL Setup
 
+<img width="372" height="259" alt="image" src="https://github.com/user-attachments/assets/88911899-3f8b-4ace-9ad2-46afcee773e5" />
+
+- We will use a Windows Server 2022 running SQL
+- Install AWS CLI on to your server - https://aws.amazon.com/cli/
+- Run powershell as an admin and run aws configure(Follow input and output in screenshot above)
+- next we will grab our **powershell script** copy it and configure it to your specifications
+- 
+  
+  
+  
 
 
 
