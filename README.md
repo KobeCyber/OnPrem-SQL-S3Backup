@@ -12,6 +12,8 @@ This project demonstrates how to automate backups from an on-premises Microsoft 
 
 ## Step 2: Create User and Set IAM Policy
 
+<img width="372" height="259" alt="image" src="https://github.com/user-attachments/assets/e17dbbcb-b0ee-4e8a-a0fd-76785a3845fd" />
+
 - Create a user you can use as a service account
 - Set permissions to attach polciies directly
 - Select create policy
