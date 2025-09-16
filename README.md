@@ -17,7 +17,7 @@ This project demonstrates how to automate backups from an on-premises Microsoft 
 - Create a user you can use as a service account
 - Set permissions to attach polciies directly
 - Select create policy
-- Manually specify permissionrs or use my json script
+- Manually specify permissionrs or use my json script in the repository **"s3-sql-iam-policy.json"**
 - Create Access key for your service account
  #### Specify Permissions ***make sure to change name to your bucket name**
 - **Service:** S3
