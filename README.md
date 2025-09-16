@@ -32,7 +32,15 @@ This project demonstrates how to automate backups from an on-premises Microsoft 
 - Install AWS CLI on to your server - https://aws.amazon.com/cli/
 - Run powershell as an admin and run aws configure(Follow input and output in screenshot above)
 - next we will grab our **powershell script** copy it and configure it to your specifications
-- 
+- drop powershell in a folder as "Backup-SQL-To-S3.ps1"
+- open task scheduler
+- create a new task
+- run whether user is logged on or not
+- run with highest privileges
+- select it to trigger everyday
+- set actions to "start a program:
+- program/script to "powershell.exe"
+- Arguments to "-File "C:\SetFilePathToYourBackupScript"
   
   
   
