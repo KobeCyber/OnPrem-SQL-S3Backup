@@ -24,3 +24,8 @@ This project demonstrates how to automate backups from an on-premises Microsoft 
 - **Add Permissions:** ListBucket, GetObject, PutObject
 - **Add Resources** | **Bucket:** arn:aws:s3:::kobecyber-s3-sqlbackup | **Object:** arn:aws:s3:::kobecyber-s3-sqlbackup /*
 
+## Step 3: On-Prem Windows SQL Setup
+
+
+
+
