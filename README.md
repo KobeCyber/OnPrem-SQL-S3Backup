@@ -19,10 +19,8 @@ This project demonstrates how to automate backups from an on-premises Microsoft 
 - Select create policy
 - Manually specify permissionrs or use my json script
 - Create Access key for your service account
- ### Specify Permissions ***make sure to change name to your bucket name**
+ #### Specify Permissions ***make sure to change name to your bucket name**
 - **Service:** S3
 - **Add Permissions:** ListBucket, GetObject, PutObject
-   #### Resources
--  **Bucket:** arn:aws:s3:::kobecyber-s3-sqlbackup ,
--  **Object:** arn:aws:s3:::kobecyber-s3-sqlbackup /*
+- **Add Resources** | **Bucket:** arn:aws:s3:::kobecyber-s3-sqlbackup | **Object:** arn:aws:s3:::kobecyber-s3-sqlbackup /*
 
