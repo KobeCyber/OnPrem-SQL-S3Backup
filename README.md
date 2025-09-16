@@ -3,8 +3,8 @@ This project demonstrates how to automate backups from an on-premises Microsoft 
 # 1st step: I created my S3 bucket - standard                                                                   
 <img width="372" height="259" alt="image" src="https://github.com/user-attachments/assets/ac15037c-4e4a-4e7f-81cf-1ea482a4b33f" />
 
-## S3 Configurations
--Blocked public access
--Enabled bucket versioning for restorability
--Created S3 Lifecycle policy with 10 day retention policy before storage expires
--kept S3's default encryption (SSE-S3)
+### S3 Security & Management Configuration
+- **Blocked public access**  
+- **Enabled bucket versioning** for restorability  
+- **Created S3 Lifecycle policy** with 10-day retention before storage expires  
+- **Kept S3's default encryption (SSE-S3)**  
