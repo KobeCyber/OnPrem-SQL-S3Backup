@@ -7,7 +7,8 @@ This project demonstrates how to automate backups from an on-premises Microsoft 
 - **Blocked public access**  
 - **Enabled bucket versioning** for restorability  
 - **Created S3 Lifecycle policy** with 10-day retention before storage expires  
-- **Kept S3's default encryption (SSE-S3)**  
+- **Kept S3's default encryption (SSE-S3)**
+- **Create folder called dailybackup**
 
 ## Step 2: Create User and Set IAM Policy
 
@@ -18,3 +19,4 @@ This project demonstrates how to automate backups from an on-premises Microsoft 
   ### Specify Permissions
 - **Service:** S3
 - **Add Permissions:** ListBucket, GetObject, PutObject
+- **Resources** arn:aws:s3:::kobecyber-s3-sqlbackup, arn:aws:s3:::kobecyber-s3-sqlbackup /dailybackups ***make sure to change name to your bucket name**
