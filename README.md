@@ -41,8 +41,13 @@ This project demonstrates how to automate backups from an on-premises Microsoft 
 - set actions to "start a program:
 - program/script to "powershell.exe"
 - Arguments to "-File "C:\SetFilePathToYourBackupScript"
+- Test run task
+
+  ## Result: An SQL backup has been uploaded to our S3
   
-  
+
+   <img width="259" height="372" alt="image" src="https://github.com/user-attachments/assets/fb00d063-1f2b-45dd-bc37-b1816d903cac" />
+
   
 
 
