@@ -1,3 +1,13 @@
+# Requirements
+
+## AWS Accounnt
+## Windows
+
+**Windows Server 2022 with SQL**
+**Prebuilt or new Database**
+**Install Terraform**
+**Install AWS CLI**
+
 This project demonstrates how to automate backups from an on-premises Microsoft SQL Server to Amazon S3 for secure, durable, and cost-effective storage. By leveraging SQL Server’s native backup functionality and AWS tools, we ensure production data is safely stored offsite and can be restored when needed.
 
 ## Step 1: I created my S3 bucket - standard                                                                   
