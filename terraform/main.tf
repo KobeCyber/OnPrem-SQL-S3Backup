@@ -13,7 +13,7 @@ resource "aws_s3_bucket" "sql_backup" {
 
   tags = {
     Name        = "SQL Server Backup Bucket"
-    Environment = "Production"
+    Environment = "Test"
   }
 }
 
