@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 # ------------------------------
-# S3 Bucket #Test
+# S3 Bucket #Test2
 # ------------------------------
 
 resource "aws_s3_bucket" "sql_backup" {
