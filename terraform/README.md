@@ -1,1 +1,1 @@
-This terraform script is responsible for automating the build of the AWS Services/Componets if used please make sure to change variables to match configurations
+This Terraform script automates the provisioning of AWS services and components. If you use this script, make sure to update the variable values to match your specific configurations.
