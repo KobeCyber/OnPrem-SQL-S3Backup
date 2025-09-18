@@ -4,7 +4,7 @@ Before you run this Terraform workflow, you need to provide AWS credentials so T
 
 In **GitHub Actions**, this is done by creating two **repository secrets**.
 
-### ✅Required Secrets
+### Required Secrets
 
 | Secret Name              | Description                        |
 |--------------------------|------------------------------------|
