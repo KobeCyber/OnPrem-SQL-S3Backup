@@ -1,6 +1,6 @@
 # Requirements
 
-## AWS Accounnt
+## AWS Account
 ## Windows
 
 **Windows Server 2022 with SQL**
